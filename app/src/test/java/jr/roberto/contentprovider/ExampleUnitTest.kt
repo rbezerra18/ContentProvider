@@ -1,4 +1,4 @@
-package jr.roberto.ContentProvider
+package jr.roberto.contentprovider
 
 import org.junit.Test
 

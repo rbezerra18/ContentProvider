@@ -1,4 +1,4 @@
-package jr.roberto.ContentProvider.database
+package jr.roberto.contentprovider.database
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase

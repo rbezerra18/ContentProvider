@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jr.roberto.ContentProvider">
+    package="jr.roberto.contentprovider">
 
     <application
         android:allowBackup="true"
@@ -11,12 +11,12 @@
         android:theme="@style/Theme.ContentProvider">
 
         <provider
-            android:name="jr.roberto.ContentProvider.database.NotesProvider"
-            android:authorities="jr.roberto.ContentProvider.provider"
+            android:name="jr.roberto.contentprovider.database.NotesProvider"
+            android:authorities="jr.roberto.contentprovider.provider"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name="jr.roberto.ContentProvider.MainActivity">
+        <activity android:name="jr.roberto.contentprovider.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

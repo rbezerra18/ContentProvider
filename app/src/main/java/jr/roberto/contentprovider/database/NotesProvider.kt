@@ -1,4 +1,4 @@
-package jr.roberto.ContentProvider.database
+package jr.roberto.contentprovider.database
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.media.UnsupportedSchemeException
 import android.net.Uri
 import android.provider.BaseColumns._ID
-import jr.roberto.ContentProvider.database.NotesDatabaseHelper.Companion.TABLE_NOTES
+import jr.roberto.contentprovider.database.NotesDatabaseHelper.Companion.TABLE_NOTES
 
 class NotesProvider : ContentProvider() {
 
